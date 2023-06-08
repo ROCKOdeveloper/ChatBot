@@ -1,6 +1,5 @@
 const axios = require("axios");
 
-
 /**
  * Consultamos inventario
  * @param {*} id

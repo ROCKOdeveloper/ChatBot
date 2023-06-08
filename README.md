@@ -1,22 +1,38 @@
-### CHATBOT Whatsapp (Baileys Provider)
+# ChatBot WhatsApp
 
 <p align="center">
-  <img width="300" src="https://i.imgur.com/Oauef6t.png">
+  <img width="100" src="https://i.imgur.com/Oauef6t.png">
 </p>
 
+**¿Qué es esto?**
+Es una librería que te permitirá crear chatbot para WhatsApp en tan solo minutos de una manera ágil y rápida.  
+Puedes configurar respuestas automatizadas para preguntas frecuentes, recibir y responder mensajes de manera automatizada, y hacer un seguimiento de las interacciones con los clientes.  
+A lo largo de esta documentación encontrarás ejemplos y material de ayuda.
 
-**Con esta librería, puedes construir flujos automatizados de conversación de manera agnóstica al proveedor de WhatsApp,** configurar respuestas automatizadas para preguntas frecuentes, recibir y responder mensajes de manera automatizada, y hacer un seguimiento de las interacciones con los clientes.  Además, puedes configurar fácilmente disparadores que te ayudaran a expandir las funcionalidades sin límites. **[Ver documentación](https://bot-whatsapp.netlify.app/)**
+> El sigue1
 
+## Ejecutar el siguiente comando
 
+``` bash
+npm create bot-whatsapp@latest
 ```
+
+segue las instrucciones, (especificar pasos)
+
+(explicar sus funciones)
+
+``` bash
 npm install
+```
+
+``` bash
 npm start
 ```
 
 ---
+
 ## Recursos
-- [📄 Documentación](https://bot-whatsapp.netlify.app/)
-- [🚀 Roadmap](https://github.com/orgs/codigoencasa/projects/1)
-- [💻 Discord](https://link.codigoencasa.com/DISCORD)
-- [👌 Twitter](https://twitter.com/leifermendez)
-- [🎥 Youtube](https://www.youtube.com/watch?v=5lEMCeWEJ8o&list=PL_WGMLcL4jzWPhdhcUyhbFU6bC0oJd2BR)
+
+- [Documentación](https://bot-whatsapp.netlify.app/)
+- [Discord](https://link.codigoencasa.com/DISCORD)
+- [Youtube](https://www.youtube.com/watch?v=5lEMCeWEJ8o&list=PL_WGMLcL4jzWPhdhcUyhbFU6bC0oJd2BR)

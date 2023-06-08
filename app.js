@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 const { createBot, createProvider, createFlow } = require("@bot-whatsapp/bot");
 const QRPortalWeb = require("@bot-whatsapp/portal");
 const BaileysProvider = require("@bot-whatsapp/provider/baileys");
@@ -18,9 +19,7 @@ const flowAgente = require("./flows/flowAgente");
 const { flowReparacion } = require("./flows/flowReparacion");
 const { flowOfertas } = require("./flows/flowOfertas");
 
-/**
- * Funcion principal
- */
+/* Funcion principal */
 const main = async () => {
   const adapterDB = new MockAdapter();
 
