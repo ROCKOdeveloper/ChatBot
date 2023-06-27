@@ -34,7 +34,6 @@ module.exports = {
 
         await refProvider.sendPresenceUpdate('composing', jid)
 
-
         const user = await getUser(ctx.from);//Consultamos a strapi! ctx.from = numero
 
         const lastTicket = await getTicket(user[0].id);

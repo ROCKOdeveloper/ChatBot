@@ -1,10 +1,10 @@
 {
-    "name": "base-bailey-memory",
+    "name": "base-bailey-mongo",
     "version": "1.0.0",
     "description": "",
     "main": "app.js",
     "scripts": {
-        "pre-copy": "cd .. && npm run  copy.lib base-baileys-memory",
+        "pre-copy": "cd .. && npm run  copy.lib base-baileys-mongo",
         "start": "node app.js"
     },
     "keywords": [],
@@ -14,13 +14,16 @@
         "@bot-whatsapp/cli": "latest",
         "@bot-whatsapp/database": "latest",
         "@bot-whatsapp/portal": "latest",
-        "@bot-whatsapp/provider": "latest",
-        "axios": "^1.3.4",
-        "chatgpt": "^5.1.2",
-        "dotenv": "^16.0.3",
-        "mime-types": "2.1.35",
-        "nanoid": "^4.0.1",
-        "wa-sticker-formatter": "4.3.2"
+        "@bot-whatsapp/provider": "^0.1.2",
+        "axios": "^1.4.0",
+        "chatgpt": "^5.2.5",
+        "dotenv": "^16.1.4",
+        "kleur": "^4.1.5",
+        "mime-types": "^2.1.35",
+        "mongodb": "^4.12.1",
+        "nanoid": "^4.0.2",
+        "openai": "^3.2.1",
+        "wa-sticker-formatter": "^4.3.2"
     },
     "author": "",
     "license": "ISC"

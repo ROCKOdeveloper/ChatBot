@@ -1,30 +1,29 @@
-require('dotenv').config()
+/* Importamos la libreria dotenv y luego invoca su funcion config(). la biblioteca carga las variables de entorno */
+require("dotenv").config();
 
+/* Definismos una clase de chatgpt con un arreglo, un objeto y una variable indefinida */
 class ChatGPTClass {
-  queue = []; 
+  queue = [];
   optionsGPT = { model: "gpt-3.5-turbo-0301" };
   openai = undefined;
 
+  /*  */
   constructor() {
     this.init().then();
   }
 
-  /**
-   * Esta funciona inicializa
-   */
+  /* Esta funciona inicializa */
   init = async () => {
     const { ChatGPTAPI } = await import("chatgpt");
-    this.openai = new ChatGPTAPI(
-        {
-            apiKey: process.env.OPENAI_API_KEY
-        }
-    );
+    this.openai = new ChatGPTAPI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
   };
 
   /**
    * Manejador de los mensajes
    * sun funcion es enviar un mensaje a wahtsapp
-   * @param {*} ctx 
+   * @param {*} ctx
    */
   handleMsgChatGPT = async (body) => {
     const interaccionChatGPT = await this.openai.sendMessage(body, {
@@ -37,7 +36,7 @@ class ChatGPTClass {
     });
 
     this.queue.push(interaccionChatGPT);
-    return interaccionChatGPT
+    return interaccionChatGPT;
   };
 }
 

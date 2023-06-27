@@ -1,3 +1,4 @@
+# Estos documentos serán ignorados
 node_modules
 .env
 *.png
